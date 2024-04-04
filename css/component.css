@@ -1,0 +1,107 @@
+#wrapper {
+	overflow: hidden;
+	width: 100%;
+
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.seccion {
+	position: relative;
+	/*padding-bottom: 10em;
+	padding-top: 10px;*/
+	background: #fff;
+	text-align: center;
+}
+
+
+/* ------------------------------------------------------ */
+
+@font-face {
+  font-family: 'diorvi';
+  src:  url('../fuentes/diorvi.eot?dn6kav');
+  src:  url('../fuentes/diorvi.eot?dn6kav#iefix') format('embedded-opentype'),
+    url('../fuentes/diorvi.ttf?dn6kav') format('truetype'),
+    url('../fuentes/diorvi.woff?dn6kav') format('woff'),
+    url('../fuentes/diorvi.svg?dn6kav#diorvi') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'diorvi' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-circle-check:before {
+  content: "\e900";
+}
+.ico-check2:before {
+  content: "\e901";
+}
+.ico-check:before {
+  content: "\e902";
+}
+.ico-facebook:before {
+  content: "\e909";
+}
+.ico-twitter-square:before {
+  content: "\e903";
+}
+.ico-behance-square:before {
+  content: "\e904";
+}
+.ico-behance:before {
+  content: "\e905";
+}
+.ico-twitter:before {
+  content: "\e906";
+}
+.ico-facebook-square:before {
+  content: "\e907";
+}
+.ico-instagram:before {
+  content: "\e908";
+}
+.ico-arrow-up-left2:before {
+  content: "\ea39";
+}
+.ico-arrow-up2:before {
+  content: "\ea3a";
+}
+.ico-arrow-up-right2:before {
+  content: "\ea3b";
+}
+.ico-arrow-right2:before {
+  content: "\ea3c";
+}
+.ico-arrow-down-right2:before {
+  content: "\ea3d";
+}
+.ico-arrow-down2:before {
+  content: "\ea3e";
+}
+.ico-arrow-down-left2:before {
+  content: "\ea3f";
+}
+.ico-arrow-left2:before {
+  content: "\ea40";
+}
+
+
+/* Remove the blue Webkit background when element is tapped */
+
+a, button {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
